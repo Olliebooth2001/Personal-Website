@@ -1,0 +1,387 @@
+
+
+body
+{
+ background-color: #1ee962cc;
+ margin: 0;
+ padding: 0;
+ font-family: 'Times New Roman', Times, serif;
+ justify-content: center;
+ align-items: center;
+ min-height: 100vh;
+ display: flex;
+}
+
+.container .box
+{
+ position: relative;
+ width: 350px;
+ padding: 40px;
+ background: #ffffff;
+ box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
+ border-radius: 4px;
+ margin: 20px;
+ box-sizing: border-box;
+ overflow: hidden;
+ text-align: center;
+ 
+} 
+.container.box:before
+{
+ content:'';
+ width: 50%;
+ height: 100%;
+ position: absolute;
+ top: 0;
+ left: 0;
+ background: rgba(255,255,255,.2);
+ z-index: 2;
+ pointer-events: none;
+}
+.container
+{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content:space-between ;
+}
+    
+.container .box .icon
+{
+ position: relative;
+ width: 80px;
+ height: 80px;
+ color: #ffffff;
+ background: #000000;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 0 auto;
+ border-radius: 50%;
+ font-family: 'JosefinSans-Light', sans-serif;
+ font-size: 40px;
+ font-weight: 700;
+ transition: 1s;  
+}
+.container .box:nth-child(1) .icon
+{
+ box-shadow:0 0 0 0 #1ee928;
+ background: #1ee928;
+}
+.container .box:nth-child(1):hover .icon
+{
+ box-shadow:0 0 0 400px #1ee928;
+}
+.container .box:nth-child(2) .icon
+{
+ box-shadow:0 0 0 0 #1ee928;
+ background: #1ee928;
+}
+.container .box:nth-child(2):hover .icon
+{
+ box-shadow:0 0 0 400px #1ee928;
+}
+.container .box:nth-child(3) .icon
+{
+ box-shadow:0 0 0 0 #1ee928;
+ background: #1ee928;
+}
+.container .box:nth-child(3):hover .icon
+{
+ box-shadow:0 0 0 400px #1ee928;
+}    
+.container .box .content
+{
+ position: relative;
+ z-index: 1;
+ transition: 0.5s;
+}
+.container .box:hover.content
+{
+ color:#ffffff  
+}
+.container .box .content h6
+{
+ font-family: 'JosefinSans-Light', sans-serif;
+ font-size: 20px;
+ margin: 10px 0;
+ padding: 0;
+}
+.container .box .content p
+{
+ font-family: 'JosefinSans-Thin' ,sans-serif;
+ margin: 0;
+ padding: 0;
+}
+a
+{
+ display: inline-block;
+ padding: 10px 20px;
+ background: #fff;
+ border-radius: 4px;
+ text-decoration: none;
+ color: #000;
+ font-weight: 500;
+ margin-top: 20px;
+ box-shadow: 0 2px 5px rgba(0, 0, 0, .2);  
+ font-family: 'JosefinSans-Light',sans-serif;
+}
+.navbar 
+{
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    position: fixed; 
+    top: 0;
+    width: 100%;
+
+}
+.navbar .header
+{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30;
+}
+.navbar .picture 
+{
+    text-align: center; 
+    
+}
+.navbar .picture .circle
+{
+    border-radius: 50%
+}
+.navbar .picture .instagram:hover
+{
+    transform: scale(1.2);
+    
+}
+.navbar .picture .twitter:hover
+{
+    transform: scale(1.2);
+}
+
+.footerbox
+{
+
+    overflow: hidden;
+    background-color: #1ee962cc;
+    position: fixed; 
+    bottom: 0;
+    width: 100%;
+    font-family: 'JosefinSans-Thin', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    letter-spacing: 7px;
+   
+}
+
+.galleryheaderbox
+{
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 300;
+    
+}
+.back
+{
+    position: absolute;
+    left:0;
+    top:0;
+}
+.back:hover
+{
+    transform: scale(1.1);
+}
+.galleryphotos{
+ align-items: center;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content:space-between ;
+
+}
+
+.galleryphotos .bf:hover
+{
+ transform: scale(1.05);
+ transition: all 0.5s ease-in;
+ filter: brightness(1.2)
+ 
+}
+.galleryphotos .b:hover
+{
+ transform: scale(1.05);
+  transition: all 0.5s ease-in;
+ filter: brightness(1.2)
+}
+.galleryphotos .h:hover
+{
+ transform: scale(1.05);
+ transition: all 0.5s ease-in;
+ filter: brightness(1.2)
+}
+.galleryphotos .bl:hover
+{
+ transform: scale(1.05);
+ transition: all 0.5s ease-in;
+ filter: brightness(1.2)
+}
+.galleryphotos .bw:hover
+{
+ transform: scale(1.05);
+ transition: all 0.5s ease-in;
+ filter: brightness(1.2)
+}
+.galleryphotos .w:hover
+{
+ transform: scale(1.05);
+ transition: all 0.5s ease-in;
+ filter: brightness(1.2)
+  
+}
+.galleryphotos .wa:hover
+{
+ transform: scale(1.05);
+ transition: all 0.5s ease-in;
+ filter: brightness(1.2)
+ 
+}
+.galleryphotos .m1:hover
+{
+ transform: scale(1.05);
+ transition: all 0.5s ease-in;
+ filter: brightness(1.2)
+   
+}
+.galleryphotos .m2:hover
+{
+ transform: scale(1.05);
+ transition: all 0.5s ease-in;
+ filter: brightness(1.2)
+    
+}
+.galleryphotos .bs:hover
+{
+    transform: scale(1.05);
+ transition: all 0.5s ease-in;
+ filter: brightness(1.2)
+    
+}
+
+
+.amheaderbox
+
+{
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    
+    
+}
+
+.amcontainer
+{
+    display: grid;
+    width: 70%;
+    background-color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
+    border-radius: 4px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    justify-content: space-evenly;
+   
+ 
+}
+.amcontainer .fancylink
+{
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    position: relative;
+}
+
+
+.amcontainer .fancylink:hover
+{
+   color: #1ee962cc;
+   text-decoration:underline;
+}
+
+.cheaderbox
+{
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+#bodyy
+{
+    margin:0;
+    padding:0;
+    text-align:center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.contact-title
+{
+    margin-top: 100px;
+    color:rgb(0, 0, 0);
+    transition:all 4s ease-in-out;
+}
+.contact-title h1
+{
+    font-size: 18px;
+    line-height: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+form{
+    margin-top:50px;
+    transition:all 4s ease-in-out;
+}
+.form-control
+{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+input{
+    height:45px;
+
+}
+form .submit
+{
+    background: #1ee962cc;
+
+}
+#vbox
+{
+    width:50%;
+    display: grid;
+    background-color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
+    border-radius: 4px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    justify-content: space-evenly;
+
+}
+
