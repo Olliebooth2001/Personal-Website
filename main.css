@@ -298,7 +298,7 @@ a
     box-sizing: border-box;
     overflow: hidden;
     justify-content: space-evenly;
-   
+    padding-left:2%;
  
 }
 .amcontainer .fancylink
