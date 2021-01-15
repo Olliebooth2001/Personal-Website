@@ -1,0 +1,54 @@
+.rpcontainer
+{
+  width: 90%;
+  background-color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
+  border-radius: 4px;
+  overflow: hidden;
+  padding-left:2%;
+  margin: 0 auto;
+}
+.rpcontainer h1{
+
+  font-weight: bold;
+}
+.rpcontainer .link
+{
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    position: relative;
+}
+
+
+.rpcontainer .link:hover
+{
+   color: #1ee962cc;
+   text-decoration:underline;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left {
+  width: 40%;
+}
+
+.right {
+  width: 60%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
