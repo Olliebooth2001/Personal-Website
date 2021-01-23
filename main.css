@@ -208,66 +208,66 @@ a
 {
  transform: scale(1.05);
  transition: all 0.5s ease-in;
- filter: brightness(1.2)
+ filter: brightness(1.1);
  
 }
 .galleryphotos .b:hover
 {
  transform: scale(1.05);
   transition: all 0.5s ease-in;
- filter: brightness(1.2)
+ filter: brightness(1.1);
 }
 .galleryphotos .h:hover
 {
  transform: scale(1.05);
  transition: all 0.5s ease-in;
- filter: brightness(1.2)
+ filter: brightness(1.1)
 }
 .galleryphotos .bl:hover
 {
  transform: scale(1.05);
  transition: all 0.5s ease-in;
- filter: brightness(1.2)
+ filter: brightness(1.1)
 }
 .galleryphotos .bw:hover
 {
  transform: scale(1.05);
  transition: all 0.5s ease-in;
- filter: brightness(1.2)
+ filter: brightness(1.1)
 }
 .galleryphotos .w:hover
 {
  transform: scale(1.05);
  transition: all 0.5s ease-in;
- filter: brightness(1.2)
+ filter: brightness(1.1)
   
 }
 .galleryphotos .wa:hover
 {
  transform: scale(1.05);
  transition: all 0.5s ease-in;
- filter: brightness(1.2)
+ filter: brightness(1.1)
  
 }
 .galleryphotos .m1:hover
 {
  transform: scale(1.05);
  transition: all 0.5s ease-in;
- filter: brightness(1.2)
+ filter: brightness(1.1)
    
 }
 .galleryphotos .m2:hover
 {
  transform: scale(1.05);
  transition: all 0.5s ease-in;
- filter: brightness(1.2)
+ filter: brightness(1.1)
     
 }
 .galleryphotos .bs:hover
 {
     transform: scale(1.05);
  transition: all 0.5s ease-in;
- filter: brightness(1.2)
+ filter: brightness(1.1)
     
 }
 
@@ -288,7 +288,6 @@ a
 
 .amcontainer
 {
-    display: grid;
     width: 70%;
     background-color: white;
     font-family: 'Josefin Sans', sans-serif;
@@ -300,6 +299,20 @@ a
     justify-content: space-evenly;
     padding-left:2%;
  
+}
+.amcontainer .bertwalk{
+    padding-left: 20px;
+    border-radius: 3px;
+
+}
+.amcontainer .ROT{
+    float:left;
+    width: 100%;
+}
+.amcontainer p{
+    float:left;
+    width: 60%;
+  
 }
 .amcontainer .fancylink
 {
